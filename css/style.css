@@ -1,0 +1,140 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    max-width: 650px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgb(255, 224, 200);
+
+}
+
+h1{
+    text-align: center;
+    color: #4a2105;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.subtitulo{
+    text-align: center;
+    color: #532607;
+    margin-bottom: 25px;
+}
+
+
+#formulario label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: rgb(126, 86, 43);
+}
+
+input, select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(132, 71, 24);
+    border-radius: 8px;
+    font-size: 16px;
+    
+}
+
+input:focus, select:focus{
+    outline: none;
+    outline: 1px solid rgb(114, 47, 8);
+}
+
+input:valid, select:valid{
+    border: 2px solid #520020;
+    background-color: hsl(42, 100%, 98%);
+}
+
+.notas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+button{
+    width: 100%;
+    margin-top: 25px;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #713a06;
+    color: #fff2d9;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(77, 32, 0);
+    transition: 1s;
+    padding: 16px 5px;
+}
+
+.resultado{
+    text-align: center;
+    margin-top: 25px;
+    color: #723f0fb7;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff2d9;
+    font-size: 15px;
+}
+
+.aprovado{
+    color: #83ca3c;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.reprovado{
+    color: #b72222;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.recuperacao{
+    color: #ff8400;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#link {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    margin-top: 5px;
+    border-radius: 9px;
+    background: #b27047;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    box-shadow:
+        0 4px 10px rgba(52, 152, 219, 0.25);
+
+    transition: 1.2s;
+}
+
+#link:hover{
+    background-color: #895d42;
+}
